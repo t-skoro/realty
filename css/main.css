@@ -659,7 +659,7 @@ body {
   width: 478px;
   height: 547px;
   margin-left: 80px;
-  background-image: url("./../../img/contacts/girl.png");
+  background-image: url("./../img/contacts/girl.png");
   background-repeat: no-repeat;
   background-size: initial;
 }
