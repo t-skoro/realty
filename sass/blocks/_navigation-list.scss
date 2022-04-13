@@ -1,0 +1,19 @@
+.navigation-list {
+	font-weight: bold;
+	transition: 0.3s ease-in;
+	ul {
+		display: flex;
+	}
+	li:not(:last-child) {
+		margin-right: 42px; // у всех li кроме последнего
+	}
+	a {
+		&.active {
+			color: $accent-color;
+			font-weight: bold;
+		}
+		&:hover {
+			color: $accent-color;
+		}
+	}
+}

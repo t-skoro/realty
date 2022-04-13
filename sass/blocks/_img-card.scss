@@ -1,0 +1,19 @@
+.img-card {
+	position: relative;
+	width: 385px;
+	& + & {
+		margin-left: 32px;
+	}
+}
+.img-card__img {
+	border-radius: 20px 20px 0px 20px;
+
+	.img-card--rounder & {
+		border-radius: 20px;
+	}
+}
+.img-card__info {
+	position: absolute;
+	right: -46px;
+	bottom: 87px;
+}
